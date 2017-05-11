@@ -1,0 +1,291 @@
+$intercom-blue: #1F8CEB;
+$dark: #4a4a4a;
+
+body {
+  font-family: "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: $dark;
+
+  // thin: 100
+  // light: 300
+  // regular: 400
+  // medium: 500
+  // semibold: 600
+  // bold: 700
+}
+
+a {
+  color: $intercom-blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.button {
+  background: rgba(31,140,235,0.8);
+  // display: block;
+  border-radius: 4px;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 300;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: 0.3s all ease-in-out;
+}
+
+a.button:hover {
+  cursor: pointer;
+  background: rgba(31,140,235,1);
+  text-decoration: none;
+}
+
+header {
+  background: #FFFFFF;
+  box-shadow: 0 1px 1px 0 #E6E6E6;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+
+  img {
+    margin-top: 8px;
+  }
+
+  span {
+
+  }
+
+  a.button {
+    float: right;
+  }
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+h1 {
+  padding-top: 230px;
+  font-size: 36px;
+  font-weight: 100;
+
+  span {
+    color: $intercom-blue;
+  }
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 36px;
+  line-height: 56px;
+
+  strong {
+    font-weight: 400;
+  }
+
+  span {
+    color: $intercom-blue;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+#introduction {
+  img {
+    padding-top: 130px;
+    padding-bottom: 60px;
+  }
+}
+
+#whatiwant {
+  background: $intercom-blue;
+  padding-top: 120px;
+  padding-bottom: 130px;
+
+  h2 {
+    color: #FFF;
+  }
+
+  p {
+    color: #F0F0F0;
+    padding-top: 30px;
+    font-weight: 100;
+  }
+}
+
+#video {
+  padding-top: 120px;
+  padding-bottom: 80px;
+
+  h2 {
+    strong {
+      color: $intercom-blue;
+    }
+  }
+}
+
+#coolthings {
+  h2 {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .padding-top {
+    margin-top: 50px;
+  }
+
+  .box {
+    background: #FFFFFF;
+    box-shadow: 0 30px 40px 0 rgba(186,192,201,0.20);
+    border-radius: 8px;
+    margin-bottom: 50px;
+  }
+
+  .text {
+    padding: 55px 60px 50px 60px;
+  }
+
+  .smaller-padding {
+    padding: 10px 50px 50px 50px;
+  }
+
+  .no-shadow {
+    box-shadow: 0 0 0 0 rgba(186,192,201,0);
+  }
+
+  .vivienne {
+    background: url(images/vivienne.jpg) no-repeat center 0px;
+    background-size: contain;
+    padding: 10px 50px 50px 50px;
+    height: 540px;
+  }
+
+  .photo {
+    padding: 0;
+  }
+
+  .text img {
+    max-height: 100px;
+  }
+
+  h3 {
+    padding-top: 15px;
+    margin-bottom: 20px;
+  }
+
+}
+
+#portfolio {
+  padding-top: 30px;
+  padding-bottom: 70px;
+
+  .link {
+    margin-top: 15px;
+  }
+
+  a {
+    cursor: pointer;
+    display: block;
+    color: $dark;
+    padding: 20px;
+    transition: 0.3s all ease-in-out;
+
+    img {
+      display: block;
+      max-height: 32px;
+      margin-bottom: 15px;
+    }
+    span {
+      display: block;
+      font-size: 12px;
+    }
+    strong {
+      display: block;
+      font-size: 28px;
+    }
+
+    &:hover {
+      box-shadow: 0 30px 40px 0 rgba(186,192,201,0.20);
+      border-radius: 8px;
+      text-decoration: none;
+    }
+  }
+}
+
+#lists {
+  background: linear-gradient(
+    to right,
+    $intercom-blue 0%,
+    $intercom-blue 50%,
+    #FFF 50%,
+    #FFF 100%
+  );
+
+  .col-md-6 {
+    padding-top: 75px;
+    padding-bottom: 80px;
+    font-size: 16px;
+  }
+
+  .white {
+    color: #FFF;
+    padding-right: 80px;
+  }
+
+  .dark {
+    color: $dark;
+    padding-left: 80px;
+  }
+
+  ul {
+    // list-style-image: url('images/tick.svg');
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      background: url('images/tick.svg') left center no-repeat;
+      min-height: 31px;
+      margin-top: 30px;
+      padding-left: 55px;
+    }
+  }
+
+}
+
+#cta {
+  padding-top: 130px;
+  padding-bottom: 130px;
+
+  a.button {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+  }
+}
+
+footer {
+  padding-bottom: 45px;
+
+  .row {
+    padding-top: 40px;
+  }
+
+  p {
+    color: #888;
+    line-height: 1.8;
+  }
+}
