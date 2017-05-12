@@ -1,5 +1,13 @@
+// ---------------------------------------------
+//  COLORS
+// ---------------------------------------------
+
 $intercom-blue: #1F8CEB;
 $dark: #4a4a4a;
+
+// ---------------------------------------------
+//  GENERAL
+// ---------------------------------------------
 
 body {
   font-family: "proxima-nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -12,6 +20,14 @@ body {
   // semibold: 600
   // bold: 700
 }
+
+.no-padding {
+  padding: 0 !important;
+}
+
+// ---------------------------------------------
+//  TYPOGRAPHY
+// ---------------------------------------------
 
 a {
   color: $intercom-blue;
@@ -40,34 +56,6 @@ a.button:hover {
   cursor: pointer;
   background: rgba(31,140,235,1);
   text-decoration: none;
-}
-
-header {
-  background: #FFFFFF;
-  box-shadow: 0 1px 1px 0 #E6E6E6;
-  padding-top: 10px;
-  padding-bottom: 11px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 999;
-
-  img {
-    margin-top: 8px;
-  }
-
-  span {
-
-  }
-
-  a.button {
-    float: right;
-  }
-}
-
-.no-padding {
-  padding: 0 !important;
 }
 
 h1 {
@@ -100,10 +88,38 @@ h3 {
   font-weight: 300;
 }
 
+// ---------------------------------------------
+//  SECTIONS
+// ---------------------------------------------
+
+header {
+  background: #FFFFFF;
+  box-shadow: 0 1px 1px 0 #E6E6E6;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+
+  img {
+    margin-top: 8px;
+  }
+
+  span {
+
+  }
+
+  a.button {
+    float: right;
+  }
+}
+
 #introduction {
   img {
     padding-top: 130px;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
   }
 }
 
@@ -312,5 +328,57 @@ footer {
   p {
     color: #888;
     line-height: 1.8;
+  }
+}
+
+// ---------------------------------------------
+//  MOBILE
+// ---------------------------------------------
+
+@media (max-width: 768px) {
+  #introduction {
+    h1 {
+      padding-top: 100px;
+    }
+    img {
+      padding-top: 10px;
+    }
+  }
+  #whatiwant {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+  }
+  #video {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  #coolthings {
+    h2 {
+      padding-top: 30px;
+      padding-bottom: 0px;
+    }
+  }
+  #lists {
+
+    .col-md-6 {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .white {
+      padding-right: 20px;
+      background: $intercom-blue;
+    }
+
+    .dark {
+      padding-left: 20px;
+      background: #FFF;
+    }
+  }
+  #cta {
+    padding-top: 0;
+    padding-bottom: 60px;
   }
 }

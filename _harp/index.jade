@@ -1,10 +1,10 @@
 header
   .container
     .row
-      .col-md-3
+      .col-sm-3
         a(href="index.html")
           img(src="images/intercom-marek.svg", alt="Intercom + Marek Dlugos")
-      .col-md-3.col-md-offset-6
+      .col-sm-3.col-sm-offset-6.hidden-xs
         a(href="mailto:marek@hostmeinca.com").button Get in touch with me
         
 section#introduction
@@ -28,7 +28,7 @@ section#video
       .col-md-4
         h2 Got #[strong 55 spare seconds] to watch the video I’ve made for you?
         p This video was made for #[a(href="http://emmetconnolly.com/") Emmet], Director of Product Design.
-        p Videos are one of my big freetime passions. Watch also my show #[a(href="https://www.youtube.com/playlist?list=PLfAn5S6hUak9NqYmSIPIhspARcNvrllpq") Questions w/ Shopify Interns].
+        p.hidden-sm.hidden-xs Videos are one of my big freetime passions. Watch also my show #[a(href="https://www.youtube.com/playlist?list=PLfAn5S6hUak9NqYmSIPIhspARcNvrllpq") Questions w/ Shopify Interns].
       .col-md-7.col-md-offset-1
         div.embed-responsive.embed-responsive-16by9
           iframe(src="https://www.youtube.com/embed/E3Dn0W4WUlk" allowfullscreen)
@@ -38,17 +38,17 @@ section#coolthings
     hr
     h2 #[span Cool things] I've done.
     .row
-      .col-md-4
+      .col-md-4.col-sm-6
         .box.text
           img(src="images/shopify.svg", alt="Shopify" class="img-responsive")
           h3 Last summer I've interned at Shopify.
         .box.text
           img(src="images/yc.svg", alt="Y Combinator Hacker News" class="img-responsive")
           h3 My site was featured on YC Hacker News twice.
-        .box.text
+        .box.text.hidden-xs
           img(src="images/100.svg", alt="Over 100" class="img-responsive")
           h3 I've completed 100+ commercial projects for global clientele.
-      .col-md-4.padding-top
+      .col-md-4.padding-top.col-sm-6
         .box.photo
           img(src="images/dribbble-meetup.jpg", alt="Dribbble Meetup" class="img-responsive")
           .smaller-padding
@@ -57,34 +57,34 @@ section#coolthings
         .box.no-shadow.vivienne
           h3 “Marek is a highly motivated individual with a diverse skill set.”
           p Vivienne Kay, Designer at Shopify
-      .col-md-4
-        .box.text
+      .col-md-4.hidden-sm
+        .box.text.hidden-xs
           img(src="images/se.svg", alt="Software Engineering" class="img-responsive")
           h3 I study Software Engineering bachelor degree.
           p I believe, I will have a great empathy for your users, designers as well as engineers.
         .box.text
           img(src="images/creativemarket.svg", alt="CreativeMarket" class="img-responsive")
           h3 I have worked with founder of Creative Market.
-        .box.text
+        .box.text.hidden-xs
           h3.no-padding I’ve traveled round the world in my 20’s.
           p Well, I’m still only 21yo but I’ve already seen 22 countries!
     hr
 section#portfolio
   .container
     .row
-      .col-md-4
+      .col-md-4.col-sm-12.col-xs-12
         h2 Let my work speak out on my behalf.
-      .col-md-2.col-md-offset-2.link
+      .col-md-2.col-md-offset-2.link.col-sm-4.col-xs-6
         a(href="https://dribbble.com/marekdlugos", target="_blank")
           img(src="images/dribbble.svg", alt="Dribbble", class="img-responsive")
           span Visuals on my
           strong Dribbble
-      .col-md-2.link
+      .col-md-2.link.col-sm-4.col-xs-6
         a(href="resources/marek-dlugos-designer.pdf" target="_blank")
           img(src="images/resume.svg", alt="Resume", class="img-responsive")
           span Summary in my
           strong Resume
-      .col-md-2.link
+      .col-md-2.link.col-sm-4.hidden-xs
         a(href="resources/marek-dlugos-portfolio.pdf" target="_blank")
           img(src="images/process.svg", alt="Process", class="img-responsive")
           span Thoughts about my
@@ -111,7 +111,7 @@ section#cta
     .row
       .col-md-6.col-md-offset-3
         h2 Let me know if I can start packing my things!
-        h2 Fire up our chat by hitting the button in the bottom right corner!
+        h2 Fire up our chat by hitting the button in the #[span bottom right corner]!
         a(href="mailto:marek@hostmeinca.com").button Or send me a good ol' email
 footer
   .container
