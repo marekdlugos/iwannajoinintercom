@@ -284,6 +284,17 @@ footer {
     padding-top: 40px;
   }
 
+  a {
+    display: inline-block;
+  }
+
+  div.fb-like {
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    top: -6px;
+  }
+
   p {
     color: #888;
     line-height: 1.8;
