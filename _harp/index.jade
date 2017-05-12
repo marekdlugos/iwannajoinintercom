@@ -27,9 +27,11 @@ section#video
     .row
       .col-md-4
         h2 Got #[strong 55 spare seconds] to watch the video I’ve made for you?
+        p This video was made for #[a(href="http://emmetconnolly.com/") Emmet], Director of Product Design.
         p Videos are one of my big freetime passions. Watch also my show #[a(href="https://www.youtube.com/playlist?list=PLfAn5S6hUak9NqYmSIPIhspARcNvrllpq") Questions w/ Shopify Interns].
       .col-md-7.col-md-offset-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E3Dn0W4WUlk" frameborder="0" allowfullscreen)
+        div.embed-responsive.embed-responsive-16by9
+          iframe(src="https://www.youtube.com/embed/E3Dn0W4WUlk" allowfullscreen)
       
 section#coolthings
   .container
@@ -110,7 +112,7 @@ section#cta
       .col-md-6.col-md-offset-3
         h2 Let me know if I can start packing my things!
         h2 Fire up our chat by hitting the button in the bottom right corner!
-        a(href="mailto:marek@hostmeinca.com").button Or send me an old-fashioned e-mail
+        a(href="mailto:marek@hostmeinca.com").button Or send me a good ol' email
 footer
   .container
     hr
