@@ -27,4 +27,4 @@ fjs.parentNode.insertBefore(js, fjs);
 </ul>
 <h2>:blue_book: License</h2><p>It&#39;s not allowed to copy this work or any part of it or reuse it without the author agreement.</p>
 <p>--</p>
-<p>Built in 2017 by Marek Dlugos. All rights reserved.</p></div></body></html>
+<p>Built in 2017 by Marek Dlugos. All rights reserved.</p><script></div><script>window.intercomSettings = { app_id: "gxnyk0gk" };</script><script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/gxnyk0gk';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script></body></html>
