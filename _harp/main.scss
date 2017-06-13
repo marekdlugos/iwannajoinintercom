@@ -25,6 +25,11 @@ body {
   padding: 0 !important;
 }
 
+.centered {
+  float: none;
+  margin: 0 auto;
+}
+
 // ---------------------------------------------
 //  TYPOGRAPHY
 // ---------------------------------------------
@@ -58,7 +63,8 @@ a.button:hover {
   text-decoration: none;
 }
 
-h1 {
+h1,
+#update span {
   padding-top: 230px;
   font-size: 36px;
   font-weight: 100;
@@ -113,6 +119,23 @@ header {
 
   a.button {
     float: right;
+  }
+}
+
+#update {
+  margin-top: 150px;
+
+  p, ul {
+    font-size: 15px;
+  }
+
+  li {
+    line-height: 1.7;
+  }
+
+  span.red {
+    font-weight: 600;
+    color: #C23934;
   }
 }
 

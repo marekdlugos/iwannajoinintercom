@@ -14,6 +14,11 @@ I have created my first website at the age of 11, done my first freelance job at
 3. Run `harp server`
 4. Go to `http://localhost:9000/`
 
+### Compiling
+
+1. Go to `_harp`
+2. Run `harp compile ./ ../ && cp _README.md ../README.md`
+
 ## :zap: Built With
 
 * A concept was built with **pen & pencil** on totally blank piece of paper.
